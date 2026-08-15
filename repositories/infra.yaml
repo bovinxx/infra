@@ -9,8 +9,14 @@ stringData:
   type: git
   name: infra
   project: default
-  url: <Git URL вашего репозитория> # Например: git@github.com:ilyalushkevich/infra.git
+  url: git@github.com:bovinxx/infra.git # Например: git@github.com:ilyalushkevich/infra.git
   sshPrivateKey: |
     -----BEGIN OPENSSH PRIVATE KEY-----
-    ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD/q4kbTbIX/P1W/iTAORMbCq15Ysfof7uWKz+NxbotytR8eVgWC97RXxD5qvc5Ku3reF7bfaQaQn5kg4H/Y9/g=
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAaAAAABNlY2RzYS
+    1zaGEyLW5pc3RwMjU2AAAACG5pc3RwMjU2AAAAQQQ/6uJG02yF/z9Vv4kwDkTGwqteWLH6
+    H+7lis/jcW6LcrUfHlYFgve0V8Q+ar3OSrt63he232kGkJ+ZIOB/2Pf4AAAAoLzcdZC83H
+    WQAAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD/q4kbTbIX/P1W/
+    iTAORMbCq15Ysfof7uWKz+NxbotytR8eVgWC97RXxD5qvc5Ku3reF7bfaQaQn5kg4H/Y9/
+    gAAAAhAOkS9bNWUBBcbLMkRkdNX4mcGmWPruouWwWNNR6g/cEMAAAAAAECAwQFBgc=
     -----END OPENSSH PRIVATE KEY-----
+
