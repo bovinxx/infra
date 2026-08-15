@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: git@github.com:ilyalushkevich/infra.git # Замените на URL своего репозитория
+    repoURL: git@github.com:bovinxx/infra.git 
     targetRevision: main
     path: apps/backend
 
