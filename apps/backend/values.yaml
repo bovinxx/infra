@@ -1,0 +1,19 @@
+namespace: backend
+
+deployment:
+  replicas: 3
+  image:
+    repository: docker.io/ilyalushkevich/backend
+    tag: "1.28.1"
+  containerPort: 80
+
+imagePullSecrets:
+  create: true
+  registry: "docker.io"
+  username: "ilyalushkevich"
+  password: "dckr_pat_R78_UYcCeSEfO7XzNym7zyDIIJM"
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 80
