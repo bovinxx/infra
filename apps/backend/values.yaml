@@ -3,15 +3,15 @@ namespace: backend
 deployment:
   replicas: 3
   image:
-    repository: docker.io/ilyalushkevich/backend
+    repository: docker.io/bovinxx1/backend
     tag: "1.28.1"
   containerPort: 80
 
 imagePullSecrets:
   create: true
   registry: "docker.io"
-  username: "ilyalushkevich"
-  password: "dckr_pat_R78_UYcCeSEfO7XzNym7zyDIIJM"
+  username: "bovinxx1"
+  password: "dckr_pat_HAVQ6VnefjZSXdwV9rWWKSMVvu8"
 
 service:
   type: ClusterIP
